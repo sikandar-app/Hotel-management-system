@@ -1,0 +1,668 @@
+body[data-sidebar=dark] .navbar-brand-box {
+    background: #2a3042;
+}
+
+.navbar-brand-box {
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 70px;
+    padding: 0 1.5rem;
+}
+
+.logo-lg img {
+    max-width: 40%;
+    height: auto;
+}
+
+.logo-sm img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-sm,
+.logo-lg {
+    margin-right: 10px;
+    /* Space between logos */
+}
+
+.login-logo {
+    max-width: 66%;
+}
+
+/* table start css */
+.transparent-button {
+    background: none;
+    border: none;
+}
+
+.b-pagination {
+    justify-content: flex-end;
+    font-size: 0.875rem;
+}
+
+/* New styles for better table design */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    /* Header background */
+    color: #495057;
+    /* Header text color */
+    padding: 12px;
+    text-align: left;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    /* Border between rows */
+}
+
+/* Prevent text from breaking */
+.table th,
+.table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Show ellipsis for overflow text */
+}
+
+.table td {
+    max-width: 150px;
+    /* Limit width for better layout */
+}
+
+/* Center the pagination controls */
+.b-pagination {
+    justify-content: center;
+}
+
+/* Button styles */
+.b-button {
+    font-weight: bold;
+}
+
+/* table end css */
+
+
+.custom-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.custom-button:hover {
+    background-color: #0069d9;
+    color: #fff;
+}
+
+.custom-input {
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.b-pagination {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.b-pagination li {
+    margin: 0 2px;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    gap: 10px;
+    /* Adds space between buttons */
+    margin-top: 20px;
+    /* Adds margin above the buttons */
+}
+
+/* Additional button styling if needed */
+.b-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.b-button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.b-button[type="submit"]:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.b-button[type="danger"] {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.b-button[type="danger"]:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Other specific styles like navbar or pagination */
+.navbar-brand-box {
+    background: #2a3042;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 70px;
+    padding: 0 1.5rem;
+}
+
+/* Adjust logo styles */
+.logo-lg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-sm img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional layout or typography adjustments */
+
+.breadcrumb-item.active {
+    font-weight: bold;
+}
+
+.mr2 {
+    margin-left: 10px;
+}
+
+.align-end-flex {
+    display: flex;
+    justify-content: flex-end;
+    /* Aligns the content to the right */
+    align-items: center;
+    /* Vertically centers the content */
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.no-border-radius {
+    border-radius: 0;
+}
+
+.filterbtn button#dropdown-columns {
+    border-radius: 0;
+}
+
+.logo-lg {
+    display: inline-block;
+    /* Ensures correct padding/margin behavior */
+    text-align: center;
+    /* Center the text inside the span */
+}
+
+.logo-lg h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.4), 2px 2px 5px rgba(0, 0, 0, 0.1); */
+    transition: all 0.3s ease-in-out;
+}
+
+.logo-lg h1:hover {
+    transform: scale(1.05);
+    /* Slight zoom on hover */
+    /* text-shadow: 0 0 15px rgba(255, 255, 255, 1), */
+    /* Stronger glow on hover */
+    /* 0 0 30px rgba(255, 255, 255, 0.8); */
+    /* Stronger glow */
+}
+
+.logo-sm {
+    width: 100%;
+    /* Ensure the logo uses full width */
+    text-align: center;
+    /* Center text */
+}
+
+.logo-sm h1 {
+    color: white;
+    /* White text for contrast */
+    margin: 0;
+    /* Remove default margin from h1 */
+    font-family: 'Poppins', sans-serif;
+    /* Use the same font */
+    text-transform: uppercase;
+    /* Uppercase for a logo look */
+    font-weight: 700;
+    /* Bold text */
+    font-size: 1.5rem;
+    /* Adjust font size for the small logo */
+    /* text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), */
+    /* Glow effect */
+    /* 0 0 10px rgba(255, 255, 255, 0.5); */
+    /* Secondary glow */
+}
+
+.custom-navbar-brand-box {
+    padding: 0;
+    margin: auto;
+    display: flex;
+}
+
+.btn-primary {
+    background-color: #009688;
+    /* Primary Color */
+    border-color: #00796b;
+    /* Border Color */
+}
+
+.btn-primary:hover {
+    background-color: #00796b;
+    /* Hover Color */
+    border-color: #00695c;
+    /* Darker Border Color */
+}
+
+.btn-check:checked+.btn,
+:not(.btn-check)+.btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+    background-color: #00695c;
+    /* Change background color */
+    border-color: #00695c;
+    /* Change border color */
+    color: white;
+    /* Change text color */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    /* Smooth transition */
+}
+
+.icon {
+    font-size: 1.5rem;
+    /* Adjust icon size */
+    transition: color 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.icon-edit {
+    color: #007bff;
+    /* Edit icon color */
+}
+
+.icon-edit:hover {
+    color: #0056b3;
+    /* Darker shade on hover */
+}
+
+.icon-view {
+    color: #28a745;
+    /* View icon color */
+}
+
+.icon-view:hover {
+    color: #218838;
+    /* Darker shade on hover */
+}
+
+.icon-delete {
+    color: #dc3545;
+    /* Delete icon color */
+}
+
+.icon-delete:hover {
+    color: #c82333;
+    /* Darker shade on hover */
+}
+
+
+.form-check-input:checked {
+    background-color: #007bff;
+    /* Change this to your chosen color */
+    border-color: #007bff;
+    /* Change this to your chosen color */
+    color: white;
+    /* Text color if applicable */
+}
+
+/* Optional: To change the checkmark color */
+.form-check-input:checked::after {
+    color: white;
+    /* Change to ensure checkmark visibility */
+}
+
+/* For better visibility, consider adding a transition */
+.form-check-input {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    /* Smooth transition */
+}
+
+.bg-primary.bg-soft {
+    background-color: rgba(40, 167, 69, 0.25) !important;
+}
+
+.text-primary {
+    color: #2B6A2B !important;
+}
+
+.custom-badge {
+    font-weight: bold;
+    /* Make the text bold */
+    padding: 0.5em 1em;
+    /* Adjust padding for better size */
+    border-radius: 0.5rem;
+    /* Adjust border radius if needed */
+}
+
+.align-end-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.transparent-button {
+    background-color: transparent !important;
+    padding: 0px 1px 1px 9px;
+}
+
+.icon-edit,
+.icon-view {
+    font-size: 16px;
+}
+
+h4 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h5 {
+    margin-top: 20px;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.loading-spinner {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.table-striped {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.text-muted {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+    /* Dark background for card header */
+}
+
+.info-item {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    /* Light background for each info item */
+}
+
+.info-item strong {
+    color: #495057;
+    /* Strong color for labels */
+}
+
+.ml-2 {
+    margin-left: 10px;
+    /* Margin for value text */
+}
+
+.page-title-box {
+    padding-bottom: 0px;
+}
+
+.margin-top-zero {
+    margin-top: 0px;
+}
+
+.card .apexcharts-canvas {
+    margin: 0 auto;
+    /* Center the chart */
+}
+
+.bg-brightRed {
+    background-color: #ff4d4f;
+}
+
+.bg-brightRed p,
+.bg-brightRed h4,
+.bg-transfers-paid p,
+.bg-transfers-paid h4,
+.bg-revenue p,
+.bg-revenue h4,
+.bg-profit p,
+.bg-profit h4 {
+    color: #fff !important;
+}
+
+.bg-transfers-paid {
+    background-color: #ffd700;
+    /* Teal */
+}
+
+.bg-revenue {
+    background-color: #00bcd4;
+    /* Bright Green */
+}
+
+.bg-profit {
+    background-color: #28a745;
+    /* Rich Gold */
+}
+
+.avatar-title {
+    background-color: #25374d !important;
+}
+
+.card {
+    margin-bottom: 20px;
+    /* Add space between cards */
+}
+
+@media (max-width: 768px) {
+    .navbar-brand-box {
+        width: 100%;
+    }
+}
+
+.clickable-card {
+    cursor: pointer;
+    /* Changes the cursor to indicate it's clickable */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.clickable-card:hover {
+    transform: translateY(-5px);
+    /* Slightly lifts the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow effect */
+}
+
+.b-table th:last-child {
+    /* text-align: center; */
+}
+
+.bg-gray-dyo {
+    background-color: #9E9E9E !important;
+}
+
+.text-white-dyo {
+    color: white !important;
+}
+
+.custom-box .card-radio {
+    border: 2px solid #f1b44c;
+    padding: 5px;
+    display: flex;
+    /* Align children horizontally */
+    align-items: center;
+    /* Align icon and text vertically */
+    gap: 0.5rem;
+}
+
+.custom-box .icon-container {
+    display: flex;
+    /* Ensures the icon stays aligned */
+    align-items: center;
+}
+
+.custom-box .text-container {
+    display: flex;
+    /* Stack label and value vertically */
+    flex-direction: column;
+    /* Label above value */
+    justify-content: center;
+}
+
+.custom-box .label {
+    font-size: 0.7rem;
+    /* Adjust font size as needed */
+    color: #6c757d;
+    /* Optional: Add a subtle color for the label */
+}
+
+.custom-box .value {
+    font-size: 0.8rem;
+    /* Make the value more prominent */
+    font-weight: bold;
+    color: #000;
+    /* Optional: Adjust color for value */
+}
+
+.expenses-table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.expenses-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.expenses-table th,
+.expenses-table td {
+    text-align: left;
+    padding: 8px;
+}
+
+.expenses-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.expenses-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.copy-btn {
+    cursor: pointer;
+    color: blue;
+}
+
+.click-btn {
+    cursor: pointer;
+}
+
+.icon-up-arrow-circle{
+    color: red;
+    font-size: 15px;
+}
+
+.page-title-box h4 {
+    text-transform: none;
+    font-weight: 600;
+    font-size: 16px !important; 
+}
+
+.no-border {
+    border:none !important;
+    border-radius: 0 !important;
+}
+
+.no-border-radius {
+    border-radius: 0 !important;
+}
+
+.flatpickr-monthSelect-months {
+  display: grid !important;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+.flatpickr-monthSelect-month {
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  transition: background 0.2s ease;
+}
+
+.flatpickr-monthSelect-month:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.flatpickr-monthSelect-month.selected {
+  background-color: #34c38f;
+  color: white;
+}
