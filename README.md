@@ -340,7 +340,7 @@ Contributions are welcome! Please follow these steps:
 
 ## 👨‍💼 Author
 
-Developed with ❤️ for hotel management professionals.
+sikandar abbas.
 
 ---
 
